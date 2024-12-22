@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: grey;
+    height: 100px;
+}
+.text{
+    text-align: center;
+    color: white;
+}
+.one{
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-style: normal;
+}
+.two{
+    font-style: italic;
+}
