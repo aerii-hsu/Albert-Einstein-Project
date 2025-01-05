@@ -1,20 +1,56 @@
-*{
-    margin: 0px;
-    padding: 0px;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(193, 199, 199);
+    color: #333;
 }
-.container{
-    background-color: grey;
-    height: 100px;
-}
-.text{
-    text-align: center;
+
+.header {
+    background-color: #333;
     color: white;
+    text-align: center;
+    padding: 20px;
 }
-.one{
-    padding-top: 20px;
-    padding-bottom: 8px;
-    font-style: normal;
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
 }
-.two{
-    font-style: italic;
+
+.header p {
+    margin: 5px 0 0;
+    font-size: 20px;
+}
+
+.content {
+    background-color: pink;
+    max-width: 900px;
+    height: 170px;
+    margin: 20px auto;
+    padding: 20px;
+}
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.gallery{
+    height: 450px;
+}
+.gallery-grid{
+    display: flex;
+    gap: 15px;
+}
+.gallery-grid img{
+    width: 250px;
+    height: auto;
+}
+.achievements{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    padding: 20px;
 }
