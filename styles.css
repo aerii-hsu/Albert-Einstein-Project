@@ -23,10 +23,9 @@ body {
 }
 
 .content {
-    background-color: pink;
-    max-width: 900px;
-    height: 170px;
-    margin: 20px auto;
+    background-color: rgb(164, 165, 165);
+    max-width: 100%;
+    height: 1000px;
     padding: 20px;
 }
 .card{
@@ -41,16 +40,13 @@ body {
 .gallery-grid{
     display: flex;
     gap: 15px;
+    justify-content: center;
 }
 .gallery-grid img{
     width: 250px;
     height: auto;
+    border-radius: 10px;
 }
 .achievements{
-    width: 100%;
-    height: auto;
-    background-color: white;
-    margin-bottom: 80px;
-    margin-top: 80px;
-    padding: 20px;
+    margin-top: 20px;
 }
